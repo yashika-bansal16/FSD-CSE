@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Amazon Style Page</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="nav-logo">
+      <div class="logo">
+      </div>
+    </div>
+    <div class="nav-address">
+      <p class="add-first">Deliver to</p>
+      <div class="nav-icon">
+        <i class="fa-solid fa-location-dot"></i>
+        <p class="add-sec">India</p>
+      </div>
+    </div>
+    <div class="nav-search">
+      <select class="search-select">
+        <option>All</option>
+      </select>
+      <input type="text" placeholder="Search Amazon" class="search-input" />
+      <div class="search-icon">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+    </div>
+    <div class="nav-signin">
+      <p><span>Hello, sign in</span></p>
+      <p class="nav-second">Account & Lists</p>
+    </div>
+    <div class="nav-return">
+      <p><span>Returns</span></p>
+      <p class="nav-second">& Orders</p>
+    </div>
+    <div class="nav-cart">
+      <i class="fa-solid fa-cart-shopping"></i>
+      <p>Cart</p>
+    </div>
+  </div>
+
+  <!-- Subheader -->
+  <div class="subheader">
+    <ul>
+      <li><a href="#">Today's Deals</a></li>
+      <li><a href="#">Customer Service</a></li>
+      <li><a href="#">Gift Cards</a></li>
+      <li><a href="#">Registry</a></li>
+      <li><a href="#">Sell</a></li>
+      <li><a href="#">Help</a></li>
+    </ul>
+  </div>
+
+  <!-- Cards -->
+  <div class="cards-container">
+    <!-- Card 1 -->
+    <div class="card">
+      <h2 class="card-title">Revamp your home in style</h2>
+      <div class="card-grid">
+        <div>
+          <img src="https://sp.yimg.com/ib/th?id=OPAC.CjicPfYwe853pA474C474&o=5&pid=21.1&w=174&h=174riness" alt="Cushion Covers">
+          <p>Cushion covers</p>
+        </div>
+        <div>
+          <img src="https://sp.yimg.com/ib/th/id/OIP.Jvw71U9YLrfXTOE-MIm0FQHaE8?pid=Api&w=148&h=148&c=7&dpr=2&rs=1">
+          <p>Figurines</p>
+        </div>
+        <div>
+          <img src="https://tse1.mm.bing.net/th/id/OIP.d26M-i9O-JtNy0Gu7b1VSwHaHa?pid=Api&rs=1&c=1&qlt=95&w=115&h=115">
+          <p>Home storage</p>
+        </div>
+        <div>
+          <img src="https://tse1.mm.bing.net/th/id/OIP._0dCtIO9j6El8GOXOz0BjQHaEK?pid=Api&rs=1&c=1&qlt=95&w=214&h=120" alt="Lighting">
+          <p>Lighting</p>
+        </div>
+      </div>
+      <a href="#" class="explore-link">Explore all</a>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card">
+      <h2 class="card-title">Upgrade your kitchen</h2>
+      <div class="card-grid">
+        <div>
+          <img src="https://tse1.mm.bing.net/th/id/OIP.3UQFcxZv68VHqSfziOv_PQHaGW?pid=Api&rs=1&c=1&qlt=95&w=142&h=122" alt="Cookware">
+          <p>Cookware</p>
+        </div>
+        <div>
+          <img src="https://tse1.mm.bing.net/th/id/OIP.5W9XdwuYvSA85eUDJ3LEjgHaIS?pid=Api&rs=1&c=1&qlt=95&w=105&h=118" alt="Storage jars">
+          <p>Storage jars</p>
+        </div>
+        <div>
+          <img src="data:image/jpeg;base64,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" alt="Water bottles">
+          <p>Water bottles</p>
+        </div>
+        <div>
+          <img src="https://tse1.mm.bing.net/th/id/OIP.BZ-FwZQtPE-bOLLJJC3yqQHaHa?pid=Api&rs=1&c=1&qlt=95&w=105&h=105" alt="Utensils">
+          <p>Utensils</p>
+        </div>
+      </div>
+      <a href="#" class="explore-link">Explore all</a>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card">
+      <h2 class="card-title">Refresh your wardrobe</h2>
+      <div class="card-grid">
+        <div>
+          <img src="https://imgs.search.brave.com/Xv_eWIdK5df7mF7vpoq6q_3-EWRafr1FW0xhrHUFmPM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jYXRl/Z29yeS1wdWJsaWMu/Y2FudmEuY29tL2Nv/bnRleHR1YWxUaHVt/Ym5haWxzL3RzaGly/dEAyeC5wbmc" alt="T-shirts">
+          <p>T-shirts</p>
+        </div>
+        <div>
+          <img src="https://imgs.search.brave.com/aNPbZxnwJLDiVBFHHHNsv_FLUjARi9EyLaIrrPmjiYI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9jb21m/b3J0YWJsZS1qZWFu/cy0xMjA1MDg5Lmpw/Zw" alt="Jeans">
+          <p>Jeans</p>
+        </div>
+        <div>
+          <img src="https://imgs.search.brave.com/u3xkGfqF0e1hF9cgkV0RMbtXhw1rHIwO1vtj3_es91E/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTM1/OTA5Nzc1Ny9waG90/by93aGl0ZS1zcG9y/dC1zbmVha2Vycy1z/aG9lcy1vbi10aGUt/dmlvbGV0LWJhY2tn/cm91bmQtZml0bmVz/cy1iYWNrZ3JvdW5k/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz1BX2Yzd3BSTnl0/MzgyeEdXVVppbXp6/RWVma0c0d2VGaUhy/R0ZXbGZJWkJZPQ" alt="Shoes">
+          <p>Shoes</p>
+        </div>
+        <div>
+          <img src="https://imgs.search.brave.com/AONsuaVwYKswUE5JaYaSA_ufdlhfOlXjxuY27ECnTAE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9wbHVz/LnVuc3BsYXNoLmNv/bS9wcmVtaXVtX3Bo/b3RvLTE2NjE2NDU0/MTc0NTQtZmFiZTM2/OThmZTRhP2ZtPWpw/ZyZxPTYwJnc9MzAw/MCZpeGxpYj1yYi00/LjEuMCZpeGlkPU0z/d3hNakEzZkRCOE1I/eHpaV0Z5WTJoOE1U/ZDhmR0ZqWTJWemMy/OXlhV1Z6ZkdWdWZE/QjhmREI4Zkh3dw" alt="Accessories">
+          <p>Accessories</p>
+        </div>
+      </div>
+      <a href="#" class="explore-link">Explore all</a>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="card">
+      <h2 class="card-title">Electronics you need</h2>
+      <div class="card-grid">
+        <div>
+          <img src="https://imgs.search.brave.com/-x-JmDGMjLnnAJVqhVSbbdGIZpUpaD_5sdtPvlf2KZg/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTQ0/ODM2NzQyNS9waG90/by9ibGFjay13aXJl/bGVzcy1oZWFkcGhv/bmVzLW9uLXBpbmst/YmFja2dyb3VuZC1t/b2Rlcm4tdGVjaG5v/bG9neS1jb25jZXB0/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz1TMkRUVDllVUhC/SG9WZDluYUJ3MWtp/SHhzU2xHczhJNmts/dmNTWXZwMllZPQ" alt="Headphones">
+          <p>Headphones</p>
+        </div>
+        <div>
+          <img src="https://imgs.search.brave.com/-vMD-tZp4lEIE4XdbCk-l9PLrRdUNuB_KaVoJd-OHZY/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by93/b21hbi11c2luZy1z/bWFydHdhdGNoLXdp/dGgtZS1tYWlsLW5v/dGlmaWVyXzc4NjEt/ODYxLmpwZz9zZW10/PWFpc19oeWJyaWQm/dz03NDAmcT04MA" alt="Smartwatches">
+          <p>Smartwatches</p>
+        </div>
+        <div>
+          <img src="https://imgs.search.brave.com/fzcIddkhXCbyFbYRjDC8WIjFgYgCv9MpLsv-9W-jiCE/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0cv/MDEvY29uc3VtZXJl/bGVjdHJvbmljcy9D/QUMvQ2F0ZWdvcnlf/U3RvcmVmcm9udHMv/MTM2NzQ3Nl91c19o/ZV9oYW5kcGlja2Vk/X3NwZWFrZXJzXzE1/MDB4NDQwLmpwZw" alt="Speakers">
+          <p>Speakers</p>
+        </div>
+        <div>
+          <img src="https://imgs.search.brave.com/DkY_ppFYVP0ok_Q20_ZG5iaeiB3N9XB80sZXfRvy1ww/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9wbHVz/LnVuc3BsYXNoLmNv/bS9wcmVtaXVtX3Bo/b3RvLTE2NjY5NTQ2/NDIyMTEtNDY5ZTVh/NTBhM2E2P2ZtPWpw/ZyZxPTYwJnc9MzAw/MCZpeGxpYj1yYi00/LjEuMCZpeGlkPU0z/d3hNakEzZkRCOE1I/eHpaV0Z5WTJoOE1U/ZDhmSFJoWW14bGRD/VXlNR052YlhCMWRH/VnlmR1Z1ZkRCOGZE/QjhmSHd3" alt="Tablets">
+          <p>Tablets</p>
+        </div>
+      </div>
+      <a href="#" class="explore-link">Explore all</a>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="footer-top">
+      <div class="footer-section">
+        <h4>Get to Know Us</h4>
+        <ul>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">About Amazon</a></li>
+          <li><a href="#">Investor Relations</a></li>
+          <li><a href="#">Amazon Devices</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Connect with Us</h4>
+        <ul>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Instagram</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Make Money with Us</h4>
+        <ul>
+          <li><a href="#">Sell on Amazon</a></li>
+          <li><a href="#">Sell under Amazon Accelerator</a></li>
+          <li><a href="#">Amazon Associates</a></li>
+          <li><a href="#">Fulfilment by Amazon</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Let Us Help You</h4>
+        <ul>
+          <li><a href="#">Your Account</a></li>
+          <li><a href="#">Shipping Rates & Policies</a></li>
+          <li><a href="#">Returns & Replacements</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 Amazon.com, Inc. or its affiliates</p>
+    </div>
+  </div>
+
+</body>
+</html>

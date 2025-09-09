@@ -1,0 +1,33 @@
+/* body{
+  background-color: lightblue;
+}
+h2{
+  color: violet;
+  text-align: center;
+  background-color: lightgreen;
+}
+#heading1{
+  color: blue;
+  text-align: center;
+  background-color: lightyellow;
+}
+.para{
+  color: black;
+  text-align: center;
+  background-color: lightgray;
+} */
+/* div ~p{
+  color: brown;
+  text-align: center;
+  background-color: lightpink;
+} */
+
+
+p:nth-child(2) {
+  padding: 10px;
+  background-color: rgb(230, 193, 173);
+}
+div p:nth-child(1) {
+  padding: 10px;
+  background-color: lightgreen;
+}
